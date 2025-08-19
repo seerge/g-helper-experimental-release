@@ -27,7 +27,7 @@ This build implements "manual" fan control as soon as you check ``Apply Custom F
 
 ### Please test on your own risk (!) and only as a last resort in case you can't achieve desired fan behavior otherwise
 
-# [ExperimentalGHelper.zip](https://github.com/user-attachments/files/21853053/ExperimentalGHelper.zip)
+# [Download Experimental Release](https://github.com/seerge/g-helper-experimental-release/releases/latest/download/GHelper.zip)
 _Updated 19.08.2025 (0.222)_
 
 > [!NOTE]
