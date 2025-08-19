@@ -1,6 +1,6 @@
 Hello fellow community,
 
-Recently I have discovered a way to **directly set fan speed** in percentage points for each fan individually. 
+[Recently I have discovered a way to **directly set fan speed** in percentage points for each fan individually. ](https://github.com/seerge/g-helper/discussions/2272)
 It uses same method as MyASUS does when runs your "fan testing".
 
 In existing and standard way to set a "custom" fan curve - fan behavior would be still **handled by BIOS** and follow it's internal algorithm. This BIOS algorithm is different for different models, sometimes includes a very high hysteresis (delays before acting), can override some custom fan behavior, etc.
