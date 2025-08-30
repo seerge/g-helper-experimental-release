@@ -29,7 +29,6 @@ This build implements "manual" fan control as soon as you check ``Apply Custom F
 ### Please test on your own risk (!) and only as a last resort in case you can't achieve desired fan behavior otherwise
 
 # [Download Experimental Release](https://github.com/seerge/g-helper-experimental-release/releases/latest/download/GHelper.zip)
-_Updated 19.08.2025 (0.222)_
 
 > [!NOTE]
 > Latest Asus System Control Interface v 3.1.**41+** restricts access to driver required for the "manual" fan control only for SYSTEM processes. So if it doesn't work for you - you can (temporarily) [uninstall new one](https://github.com/seerge/g-helper/wiki/Troubleshooting#reinstalling-asus-system-control-interface) and install previous [version 3.1.40](https://dlcdnets.asus.com/pub/ASUS/GamingNB/Image/Software/SoftwareandUtility/16402/ASUSSystemControlInterfacev3_ASUS_Z_V3.1.40.0_16402.exe) (or below)
