@@ -32,20 +32,8 @@ This build implements "manual" fan control as soon as you check ``Apply Custom F
 
 > [!NOTE]
 > ### NOTE
-> The latest Asus System Control Interface v3.1.**41+** restricts access to the driver required for "manual" fan control to SYSTEM processes only. So if it doesn't work for you, you can:
-> 
-> ### Method 1
-> 1. [Uninstall the latest Asus System Control Interface](https://github.com/seerge/g-helper/wiki/Troubleshooting#reinstalling-asus-system-control-interface)
-> 2. Install the previous [version 3.1.40](https://dlcdnets.asus.com/pub/ASUS/GamingNB/Image/Software/SoftwareandUtility/16402/ASUSSystemControlInterfacev3_ASUS_Z_V3.1.40.0_16402.exe) (or earlier)
-> 3. If Windows Update still overrides it, go to `Device Manager -> System Devices -> Asus System Control Interface`, then select `Driver -> Roll Back Driver` to 3.1.40 
->    
-> #### Method 2
-> 1. Download and extract [PSTools](https://download.sysinternals.com/files/PSTools.zip)
-> 2. Place `PsExec.exe` into the same folder as `GHelper.exe`
-> 3. Run in PowerShell as Administrator:  
->    ```powershell
->    ./psexec -i -s "$PWD\GHelper.exe"
-
+> The latest Asus System Control Interface v3.1.**41+** restricts access to the driver required for "manual" fan control to SYSTEM processes only.
+> Latest release comes **bundled** with a special [PsExec](https://download.sysinternals.com/files/PSTools.zip) tool and will automatically uset it to relaunch itself with SYSTEM permissions if it can't access driver.
 
 Possible params for ``%APPDATA%\GHelper\config.json`` (with their default values)
 
