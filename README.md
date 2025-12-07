@@ -31,9 +31,9 @@ This build implements "manual" fan control as soon as you check ``Apply Custom F
 # [Download Experimental Release](https://github.com/seerge/g-helper-experimental-release/releases/latest/download/GHelper.zip)
 
 > [!NOTE]
-> ### NOTE
 > The latest Asus System Control Interface v3.1.**41+** restricts access to the driver required for "manual" fan control to SYSTEM processes only.
-> Latest release comes **bundled** with a special [PsExec](https://download.sysinternals.com/files/PSTools.zip) tool and will automatically uset it to relaunch itself with SYSTEM permissions if it can't access driver.
+> 
+> Application comes **bundled** with a special [PsExec](https://download.sysinternals.com/files/PSTools.zip) tool and will automatically uset it to relaunch itself with a SYSTEM permissions if it can't access driver in other way.
 
 Possible params for ``%APPDATA%\GHelper\config.json`` (with their default values)
 
