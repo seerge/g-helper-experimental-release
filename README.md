@@ -29,17 +29,8 @@ This build implements "manual" fan control as soon as you check ``Apply Custom F
 - No idiot-protection. If you set fan speeds to be low, they will be low and your device will heat up quickly
 
 ### Please test on your own risk (!) and only as a last resort in case you can't achieve desired fan behavior otherwise
-
-# [Download Experimental Release](https://github.com/seerge/g-helper-experimental-release/releases/latest/download/GHelper.zip)
-
-> [!NOTE]
-> The latest Asus System Control Interface v3.1.**41+** restricts access to the driver required for "manual" fan control to SYSTEM processes only.
-> 
-> Application comes **bundled** with a special [PsExec](https://download.sysinternals.com/files/PSTools.zip) tool and will automatically use it to relaunch itself with a SYSTEM permissions if it can't access driver in other way.
-
 Possible params for ``%APPDATA%\GHelper\config.json`` (with their default values)
 
-``"fan_min": 20,`` - minimum fan speed (in %) when it's not OFF
 ``"fan_hysteresis": 6,`` - number of seconds to calculate average CPU / GPU temp (set 1 for instant reaction)
 ``"fan_shift" : 50,`` - weighted average coefficient between CPU (or GPU) temp and MAX(CPU,GPU) temps in a range from 0 to 100
 
