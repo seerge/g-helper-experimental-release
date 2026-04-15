@@ -10,6 +10,8 @@ In "alternative" approach, it's possible to actually literally **manually** set 
 
 This build implements "manual" fan control as soon as you check ``Apply Custom Fan Curve``, when you uncheck it - fan behavior will be returned back to BIOS.
 
+# [Download App](https://github.com/seerge/g-helper-experimental-release/releases/)
+
 ### Current implementation details
 - More precise fan speeds, following custom fan curve as close as possible
 - Fan speeds are being updated every second
