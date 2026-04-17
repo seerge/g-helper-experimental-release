@@ -1,16 +1,16 @@
 Hello fellow community,
 
-[Recently I have discovered a way to **directly set fan speed** in percentage points for each fan individually.](https://github.com/seerge/g-helper/discussions/2272)
+[Recently I have discovered a way to **directly set fan speed** in percentage points for each fan individually](https://github.com/seerge/g-helper/discussions/2272). 
 
 It uses same method as MyASUS does when runs your "fan testing".
 
-In existing and standard way to set a "custom" fan curve - fan behavior would be still **handled by BIOS** and follow it's internal algorithm. This BIOS algorithm is different for different models, sometimes includes a very high hysteresis (delays before acting), can override some custom fan behavior, etc.
+In existing and standard way to set a "custom" fan curve - fan behavior would be always **handled by firmware / BIOS** and follow its internal algorithm. This BIOS algorithm is different for different models, sometimes includes a very high hysteresis (delays before acting), can override some custom fan behavior, etc.
 
 In "alternative" approach, it's possible to actually literally **manually** set fan speed every second based on temperature readings.
 
 This build implements "manual" fan control as soon as you check ``Apply Custom Fan Curve``, when you uncheck it - fan behavior will be returned back to BIOS.
 
-# [Download App](https://github.com/seerge/g-helper-experimental-release/releases/)
+<img width="2234" height="1612" alt="image" src="https://github.com/user-attachments/assets/85e724d1-4bac-46d9-9d6e-b978d91018cd" />
 
 ### Current implementation details
 - More precise fan speeds, following custom fan curve as close as possible
@@ -28,7 +28,11 @@ This build implements "manual" fan control as soon as you check ``Apply Custom F
 - If you quit application incorrectly during manual fan control, fans may keep running on last used speed and will not react on temperature changes
 - No idiot-protection. If you set fan speeds to be low, they will be low and your device will heat up quickly
 
-### Please test on your own risk (!) and only as a last resort in case you can't achieve desired fan behavior otherwise
+# 💾  [Download Experimental Release](https://github.com/seerge/g-helper-experimental-release/releases/latest/download/GHelper.zip)
+
+> [!WARNING]
+> Please test on your own risk (!) and only as a last resort in case you can't achieve desired fan behavior otherwise. Experimental release is provided "as is" without warranty of any kind.
+
 Possible params for ``%APPDATA%\GHelper\config.json`` (with their default values)
 
 ``"fan_hysteresis": 6,`` - number of seconds to calculate average CPU / GPU temp (set 1 for instant reaction)
@@ -41,5 +45,3 @@ Possible params for ``%APPDATA%\GHelper\config.json`` (with their default values
 If you see a big (more than 500RPM) difference between fan curve and actual readings - try to click ``Calibrate``, it will run a quick measurement process and adjust Y-axis to match actual maximum RPMs
 
 You will see what is actually being set as your fan speeds on ``Fans+Power`` screen under fan curves chart. Don't forget to click ``Apply``.
-
-![Screenshot 2024-03-23 155637](https://github.com/seerge/g-helper/assets/5920850/232ccad5-6256-49eb-b868-6ca1887f06c2)
