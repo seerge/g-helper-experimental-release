@@ -33,9 +33,19 @@ This build implements "manual" fan control as soon as you check ``Apply Custom F
 > [!WARNING]
 > Please test on your own risk (!) and only as a last resort in case you can't achieve desired fan behavior otherwise. Experimental release is provided "as is" without warranty of any kind.
 
-Possible params for ``%APPDATA%\GHelper\config.json`` (with their default values)
+<table>
+<tr>
+   <td><b>Support Project</b></td>
+   <td >
+      <a href="https://www.paypal.com/donate/?hosted_button_id=Y7UNMPRNLB5X2"><img src="https://raw.githubusercontent.com/seerge/g-helper/main/docs/paypal-eur.png" width="150" alt="PayPal EUR"></a>&nbsp;
+      <a href="https://www.paypal.com/donate/?hosted_button_id=JSMU7DFHFSJMW"><img src="https://raw.githubusercontent.com/seerge/g-helper/main/docs/paypal-usd.png" width="150" alt="PayPal USD"></a>&nbsp;
+      <a href="https://buy.stripe.com/8wM6pt8HbgK50tWbIK"><img src="https://raw.githubusercontent.com/seerge/g-helper/main/docs/stripe.png" width="150"alt="Stripe"></a>&nbsp;
+      <a href="https://buy.stripe.com/6oE29dg9D3Xj7Wo28b"><img src="https://raw.githubusercontent.com/seerge/g-helper/main/docs/alipay.png" width="150" alt="Alipay"></a>
+   </td>
+</tr>
+</table>
 
-``"fan_hysteresis": 6,`` - number of seconds to calculate average CPU / GPU temp (set 1 for instant reaction)
+Possible params for ``%APPDATA%\GHelper\config.json`` (with their default values)
 ``"fan_shift" : 50,`` - weighted average coefficient between CPU (or GPU) temp and MAX(CPU,GPU) temps in a range from 0 to 100
 
 - If you want GPU (CPU) fan to follow only GPU (CPU) temp, leave it as is
