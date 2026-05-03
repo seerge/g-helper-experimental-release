@@ -28,22 +28,10 @@ This build implements "manual" fan control as soon as you check ``Apply Custom F
 - If you quit application incorrectly during manual fan control, fans may keep running on last used speed and will not react on temperature changes
 - No idiot-protection. If you set fan speeds to be low, they will be low and your device will heat up quickly
 
-# 💾  [Download Experimental Release](https://github.com/seerge/g-helper-experimental-release)
+&nbsp;&nbsp; [<img width="200" height="40" alt="Download" src="https://raw.githubusercontent.com/seerge/g-helper/main/docs/Download.png" />](https://github.com/seerge/g-helper-experimental-release/releases/download/latest/GHelper.zip) &nbsp; [<img width="200" height="40" alt="Support" src="https://raw.githubusercontent.com/seerge/g-helper/main/docs/Support.png" />](https://g-helper.com/support)
 
 > [!WARNING]
 > Please test on your own risk (!) and only as a last resort in case you can't achieve desired fan behavior otherwise. Experimental release is provided "as is" without warranty of any kind.
-
-<table>
-<tr>
-   <td><b>Support Project</b></td>
-   <td >
-      <a href="https://www.paypal.com/donate/?hosted_button_id=Y7UNMPRNLB5X2"><img src="https://raw.githubusercontent.com/seerge/g-helper/main/docs/paypal-eur.png" width="150" alt="PayPal EUR"></a>&nbsp;
-      <a href="https://www.paypal.com/donate/?hosted_button_id=JSMU7DFHFSJMW"><img src="https://raw.githubusercontent.com/seerge/g-helper/main/docs/paypal-usd.png" width="150" alt="PayPal USD"></a>&nbsp;
-      <a href="https://buy.stripe.com/8wM6pt8HbgK50tWbIK"><img src="https://raw.githubusercontent.com/seerge/g-helper/main/docs/stripe.png" width="150"alt="Stripe"></a>&nbsp;
-      <a href="https://buy.stripe.com/6oE29dg9D3Xj7Wo28b"><img src="https://raw.githubusercontent.com/seerge/g-helper/main/docs/alipay.png" width="150" alt="Alipay"></a>
-   </td>
-</tr>
-</table>
 
 Possible params for ``%APPDATA%\GHelper\config.json`` (with their default values)
 
