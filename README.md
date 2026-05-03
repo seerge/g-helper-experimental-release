@@ -28,7 +28,7 @@ This build implements "manual" fan control as soon as you check ``Apply Custom F
 - If you quit application incorrectly during manual fan control, fans may keep running on last used speed and will not react on temperature changes
 - No idiot-protection. If you set fan speeds to be low, they will be low and your device will heat up quickly
 
-# 💾  [Download Experimental Release](https://github.com/seerge/g-helper-experimental-release/releases/latest/download/GHelper.zip)
+# 💾  [Download Experimental Release](https://github.com/seerge/g-helper-experimental-release)
 
 > [!WARNING]
 > Please test on your own risk (!) and only as a last resort in case you can't achieve desired fan behavior otherwise. Experimental release is provided "as is" without warranty of any kind.
@@ -46,7 +46,9 @@ This build implements "manual" fan control as soon as you check ``Apply Custom F
 </table>
 
 Possible params for ``%APPDATA%\GHelper\config.json`` (with their default values)
+
 ``"fan_shift" : 50,`` - weighted average coefficient between CPU (or GPU) temp and MAX(CPU,GPU) temps in a range from 0 to 100
+``"fan_avg" : 50,`` - set this if you want both fans to follow weighted average temperature between CPU and GPU
 
 - If you want GPU (CPU) fan to follow only GPU (CPU) temp, leave it as is
 - If you want GPU (CPU) fan to follow MAX(CPU,GPU) temps, set it to 100
