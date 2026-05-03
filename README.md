@@ -28,10 +28,10 @@ This build implements "manual" fan control as soon as you check ``Apply Custom F
 - If you quit application incorrectly during manual fan control, fans may keep running on last used speed and will not react on temperature changes
 - No idiot-protection. If you set fan speeds to be low, they will be low and your device will heat up quickly
 
-&nbsp;&nbsp; [<img width="200" height="40" alt="Download" src="https://raw.githubusercontent.com/seerge/g-helper/main/docs/Download.png" />](https://github.com/seerge/g-helper-experimental-release/releases/download/latest/GHelper.zip) &nbsp; [<img width="200" height="40" alt="Support" src="https://raw.githubusercontent.com/seerge/g-helper/main/docs/Support.png" />](https://g-helper.com/support)
-
 > [!WARNING]
 > Please test on your own risk (!) and only as a last resort in case you can't achieve desired fan behavior otherwise. Experimental release is provided "as is" without warranty of any kind.
+
+[<img width="200" height="40" alt="Download" src="https://raw.githubusercontent.com/seerge/g-helper/main/docs/Download.png" />](https://github.com/seerge/g-helper-experimental-release/releases/latest/download/GHelper.zip) &nbsp; [<img width="200" height="40" alt="Support" src="https://raw.githubusercontent.com/seerge/g-helper/main/docs/Support.png" />](https://g-helper.com/support)
 
 Possible params for ``%APPDATA%\GHelper\config.json`` (with their default values)
 
