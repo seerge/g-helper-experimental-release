@@ -45,3 +45,10 @@ Possible params for ``%APPDATA%\GHelper\config.json`` (with their default values
 If you see a big (more than 500RPM) difference between fan curve and actual readings - try to click ``Calibrate``, it will run a quick measurement process and adjust Y-axis to match actual maximum RPMs
 
 You will see what is actually being set as your fan speeds on ``Fans+Power`` screen under fan curves chart. Don't forget to click ``Apply``.
+
+------
+
+### Libraries and projects used
+- [All libraries and modules](https://github.com/seerge/g-helper#libraries-and-projects-used) from the mainstream release
+- [PawnIO driver](https://github.com/namazso/PawnIO) for accessing EC fan control commands directly by [@namazso](https://github.com/namazso/)
+- [PawnIO module](https://github.com/namazso/PawnIO.Modules/commit/9c230d35e7344b6f3bc0e9ed5d684f74f449305e) extended to access EC directly by [@Undervoltologist](https://github.com/Undervoltologist)
